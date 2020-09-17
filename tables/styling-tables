@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tables</title>
+    <style>
+        table {
+            width: 75%;
+            margin: 25px auto;
+            border: 3px solid darkmagenta;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid darkmagenta;
+            padding: 5px;
+        }
+
+        th {
+            color: bisque;
+            background-color: darksalmon;
+            padding: 5px;
+        }
+
+        tr:hover {
+            background: lightgoldenrodyellow;
+        }
+
+        td {
+            text-align: center;
+            min-height: 25px;
+        }
+
+        td:hover {
+            background: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Tables</h1>
+            <br>
+            <nav>
+                <a href="index.html">Table Basics</a>
+                <a href="styling-tables.html">Styling Tables</a>
+                <a href="calendar.html">Creating a Calendar</a>
+            </nav>
+            <br>
+            <h2><i>Styling Tables</i></h2>
+        </header>
+        <table>
+            <!-- tr>th*6 -->
+            <tR>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tR>
+            <!-- (tr>td*6)*12-->
+            <tr>
+                <th>7:00am</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>8:00am</th>
+                <td>Exercise class</td>
+                <td>Gym</td>
+                <td>Exercise class</td>
+                <td>Gym</td>
+                <td>Exercise class</td>
+            </tr>
+            <tr>
+                <th>9:00am</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>10:00am</th>
+                <td rowspan=3>Digital Photography I</td>
+                <td></td>
+                <td rowspan=3>Digital Photography I</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>11:00am</th>
+                <td>Meeting</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>12:00pm</th>
+                <td></td>
+                <td>Lunch with Nikki</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>1:00pm</th>
+                <td></td>
+                <td rowspan=2>Graphic Design I</td>
+                <td></td>
+                <td rowspan=2>Graphic Design I</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>2:00pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>3:00pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Doctor's appointment</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>4:00pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>5:00pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>6:00pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
