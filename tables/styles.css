@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(68, 59, 77);
+    background-color: lightsalmon;
+}
+
+.container {
+    width: 75%;
+    margin: 25px auto;
+    border: 3px solid salmon;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline dotted;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: salmon;
+    border: 2px solid lightsalmon;
+    border-radius: 30px;
+    color: rgb(68, 59, 77);
+    padding: 10px 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-color: bisque;
+}
